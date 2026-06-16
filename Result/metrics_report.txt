@@ -5,32 +5,24 @@
 --- PLANT 1 ---
 
 [EVALUATION ON VALIDATION SET]
-            Model   Val_R2   Val_MAE  Val_RMSE  Val_MAPE
-Linear Regression 0.962510 30.480490 78.064073 33.568731
-    Random Forest 0.967643 25.680190 72.523516  8.655644
-          XGBoost 0.966657 25.630752 73.619795  8.519119
+        Model   Val_R2  Val_MAE  Val_RMSE  Val_MAPE
+Random Forest 0.967643 25.68019 72.523516  8.655644
 
 [EVALUATION ON TEST SET (HOLDOUT FUTURE)]
-            Model  Test_R2  Test_MAE  Test_RMSE  Test_MAPE
-Linear Regression 0.969334 30.484704  62.914658  57.454311
-    Random Forest 0.979615 17.006289  51.295972   6.404366
-          XGBoost 0.979478 16.796968  51.467387   6.125006
+        Model  Test_R2  Test_MAE  Test_RMSE  Test_MAPE
+Random Forest 0.979615 17.006289  51.295972   6.404366
 
 ================================================================================
 
 --- PLANT 2 ---
 
 [EVALUATION ON VALIDATION SET]
-            Model   Val_R2    Val_MAE   Val_RMSE  Val_MAPE
-Linear Regression 0.513044 123.541782 251.716777 66.621630
-    Random Forest 0.532918 114.250507 246.526783 25.306677
-          XGBoost 0.550116 115.280010 241.945693 26.109837
+        Model   Val_R2    Val_MAE   Val_RMSE  Val_MAPE
+Random Forest 0.532918 114.250507 246.526783 25.306677
 
 [EVALUATION ON TEST SET (HOLDOUT FUTURE)]
-            Model  Test_R2  Test_MAE  Test_RMSE  Test_MAPE
-Linear Regression 0.635781 76.018016 169.000712  85.666074
-    Random Forest 0.697052 57.735663 154.131477  25.397229
-          XGBoost 0.709872 58.262145 150.835022  25.271616
+        Model  Test_R2  Test_MAE  Test_RMSE  Test_MAPE
+Random Forest 0.697052 57.735663 154.131477  25.397229
 
 ================================================================================
 

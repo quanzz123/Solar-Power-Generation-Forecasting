@@ -41,7 +41,8 @@ def main():
     # Cấu hình danh sách các mô hình bạn muốn chạy tại đây.
     # Lựa chọn có sẵn: ["linear_regression", "random_forest", "xgboost"]
     # Ví dụ: chỉ chạy ["xgboost"] nếu bạn chỉ muốn tập trung tối ưu hóa và chạy XGBoost.
-    MODELS_TO_RUN = ["linear_regression", "random_forest", "xgboost"]
+    # MODELS_TO_RUN = ["linear_regression", "random_forest", "xgboost"]
+    MODELS_TO_RUN = ["random_forest"]
     
     train_and_evaluate_selected(models_to_run=MODELS_TO_RUN)
     
